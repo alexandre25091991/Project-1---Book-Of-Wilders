@@ -201,13 +201,13 @@ const profilWilders = [
     description:"blablabla"
   },
   {
-    firstname: " Julie ",
+    firstname: "Anne",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Julie Smith",
+    name: "Anne Marchasson",
     age:"32 ans",
-    lastjob:"Joueuse de Pétanque",
+    lastjob:"Infographiste",
     newjob:"Développeur Web Front-end",
-    description:"Je suis une grande curieuse, j'écoute aux portes et n'hésite pas à dénoncer mes voisins. Mon chat se nomme Gaspard et c'est un petit ingrat"
+    description:"blablabla"
   },
 
 ];
@@ -268,17 +268,44 @@ for (let i=0; i < profilWilders.length; i++) {
 
 }
 
+//handling cards
 
-// display block whien click on img-grid
+let images = document.querySelectorAll(".img-grid"); 
+const card = document.querySelector(".card")
+const closeBtn = document.querySelector("#close-btn");
 
-
-// si je clique sur img grid 1
-
-const imgGridClick = document.querySelector('.img-grid1');
-
-imgGridClick.addEventListener('click', function(){
-  
+//when image is clicked, modal appears
+ 
+document.querySelectorAll("img").forEach((img) =>{
+  img.addEventListener("click", (event) => {
+    img.classList.add("card");
+    card.style.display = "block";
 })
+}
+
+)
+
+//when button is clicked, modal disappears
+closeBtn.addEventListener("click", function(e){
+  if(e.target === closeBtn){
+    card.style.display="none";  
+  }
+})
+
+//if modal is opened we can also click anywhere to hide it
+document.body.addEventListener('click',function(e){
+  if(e.target===card){
+  card.style.display = "none"; 
+  }
+})
+
+//when modal is a block, background should be transparent 
+
+
+
+
+
+
 
 
 const button = document.querySelector('button');
@@ -288,11 +315,3 @@ button.addEventListener('click', event => {
 });
 
 
-
-
-
-// la  premiere class card devient visible
-
-//si je clique à l'extérieur
-
-// la class card devient invisible 
