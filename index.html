@@ -5,67 +5,143 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>- P1 </title>
+    <title> P1 </title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preload" href="Schoolwork-Regular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="TwCenMT-Condensed.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Condensed:wght@500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <section class="grid-trombiphototest.png">
-
-        <div class=" cards  blur">
-            <h2 class="titleSection"><span class="span1">W</span>ILDERS <br><span class="span2">2023</span></h2>
-            <!-- photos -->
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-
-
-
-            <!-- Modal content -->
-            <div class="card">
-                <h3 class="firstname-title">Anne</h3>
-                <div class="photo"></div>
-                <div class="name">Anne Marchasson</div>
-                <div class="age">32 ans</div>
-                <div class="last-job">Infographiste</div>
-                <div class="new-job">Développeur web Front-end</div>
-                <div class="description">blablabla</div>
-                <button class="card-button"></button>
-                <div id="close-btn">&times;</div>
+    <nav>
+        <div class="Navbar">
+            <div class="photo">
+                <img src="logo.png" alt="logo"></img>
+            </div>
+            <div class="links">
+                <ul>
+                    <li><a href="#A propos">A propos</a></li>
+                    <li><a href="Les Wilders 2023">Les Wilders 2023</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div id="menuToggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <ul id="menu">
+                    <a href="#">
+                        <li>A propos</li>
+                    </a>
+                    <a href="#">
+                        <li>Les Wilders 2023</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact</li>
+                    </a>
+                </ul>
             </div>
         </div>
-    </section>
+    </nav>
+    <div class="introduction">
+        <div class="paragraph">
+            <h1>A propos :</h1>
+         
+            <p> Notre team est ravie de vous présenter ce projet "Book of the wilders", un trombinoscope numériques des élèves de la WSC.
+                Nous espérons créer des vocations chez d'autres personnes ayant la fibre numérique, 
+                inspirer d'éventuelles reconversions et promouvoir le savoir faire des étudiants de notre école.
+            </p>
+           
+        </div>
+        <div id="first_img">
+            <img src="logoW.png" alt="" />
+        </div>
+    </div> 
 
+    <div class="tablet">
+        <div class="wrapper">
+            <i id="left" class="fa-solid fa-chevron-left"></i>
+            <div class="carousel">
+                <div class="cards">
+                <img src="phototest.png" />
+                <img src="phototest.png" />
+                <img src="phototest.png" />
+                <img src="phototest.png" />
+                <img src="phototest.png" /> 
+            </div>
+        </div> 
+        <i id="right" class="fa-solid fa-chevron-right"></i>
+        </div>
+        <div class="card">
+            <h3 class="firstname-title">Anne</h3>
+            
+            <div class="photo"> <img id="imageModal" src="phototest.png" /></div>
+            <div class="description">
+            <div class="name">Anne Marchasson</div>
+            <div class="age">32 ans</div>
+            <div class="last-job">Infographiste</div>
+            <div class="new-job">Développeur web Front-end</div>
+            <div class="description">blablabla</div>
+            <button class="card-button"></button>
+            <div id="close-btn">&times;</div>
+        </div>
+        </div>
+    </div>
 
+    <div class="desktop">
+        <section class="grid-trombiphototest.png">
+
+            <div class=" cards  blur">
+                <h2 class="titleSection"><span class="span1">W</span>ILDERS <br><span class="span2">2023</span></h2>
+                <!-- photos -->
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+                <img class="img-grid" src="phototest.png">
+    
+    
+    
+                <!-- Modal content -->
+                <div class="card">
+                    <h3 class="firstname-title">Anne</h3>
+                    <div class="photo"></div>
+                    <div class="name">Anne Marchasson</div>
+                    <div class="age">32 ans</div>
+                    <div class="last-job">Infographiste</div>
+                    <div class="new-job">Développeur web Front-end</div>
+                    <div class="description">blablabla</div>
+                    <button class="card-button"></button>
+                    <div id="close-btn">&times;</div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    
+
+    <div class="formul">
     <h2 id="titlecontact">Contactez-nous !</h2>
 
     <div class="address">
@@ -111,7 +187,16 @@
         <button type="submit">Envoyer ➣</button>
 
     </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>Les Wilders 2023</p>
+        </div>
+    </footer>
+    
     <script src="script.js"></script>
+    <script src="scriptTablet.js"></script>
 </body>
 
 </html>

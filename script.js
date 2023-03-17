@@ -1,3 +1,7 @@
+
+
+
+// Modal
 const cards = document.querySelector(".cards");
 
 // array modal
@@ -237,7 +241,7 @@ const profilWilders = [
 
 ];
 
-
+// copy  item array in modal card 
 function createCard ({firstname, photo, name, age, lastjob, newjob, description}) {  
 
 
@@ -293,22 +297,9 @@ for (let i=0; i < profilWilders.length; i++) {
 
 }
 
-<<<<<<< HEAD
-
-// display block whien click on img-grid
-
-
-// si je clique sur img grid 1
-
-const imgGridClick = document.querySelector('.img-grid1');
-
-imgGridClick.addEventListener('click', function(){
-  
-})
-=======
 //handling cards
-
-let images = document.querySelectorAll(".img-grid"); 
+//let cards = document.querySelectorAll("img");
+//let images = document.querySelectorAll(".img-grid"); 
 const card = document.querySelector(".card")
 const closeBtn = document.querySelector("#close-btn");
 
@@ -341,12 +332,6 @@ document.body.addEventListener('click',function(e){
 
 
 
-
-
-
->>>>>>> anneGrid
-
-
 const button = document.querySelector('button');
 
 button.addEventListener('click', event => {
@@ -354,14 +339,3 @@ button.addEventListener('click', event => {
 });
 
 
-<<<<<<< HEAD
-
-
-
-// la  premiere class card devient visible
-
-//si je clique à l'extérieur
-
-// la class card devient invisible 
-=======
->>>>>>> anneGrid
