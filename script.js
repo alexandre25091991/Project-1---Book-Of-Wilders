@@ -37,6 +37,31 @@ const profilWilders = [
     lastjob:"Cuisinier",
     newjob:"Développeur Web",
     description:"Ce Fan de chausson Vador nous dit: Pour trouver la rose de sa vie, il faut cueillir la plus belle du jardin et ne plus jamais changer d’avis."
+    firstname: "Anne",
+    photo:"https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/photo_portrait.png",
+    name: "Anne Marchasson",
+    age:"32 ans",
+    lastjob:"Infographiste",
+    newjob:"Développeur Web Front-end",
+    description:"blablabla"
+  },
+  {
+    firstname: "Anne",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Anne Marchasson",
+    age:"32 ans",
+    lastjob:"Infographiste",
+    newjob:"Développeur Web Front-end",
+    description:"blablabla"
+  },
+  {
+    firstname: "Anne",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Anne Marchasson",
+    age:"32 ans",
+    lastjob:"Infographiste",
+    newjob:"Développeur Web Front-end",
+    description:"blablabla"
   },
   {
     firstname: "Anne",
@@ -268,6 +293,7 @@ for (let i=0; i < profilWilders.length; i++) {
 
 }
 
+<<<<<<< HEAD
 
 // display block whien click on img-grid
 
@@ -279,6 +305,46 @@ const imgGridClick = document.querySelector('.img-grid1');
 imgGridClick.addEventListener('click', function(){
   
 })
+=======
+//handling cards
+
+let images = document.querySelectorAll(".img-grid"); 
+const card = document.querySelector(".card")
+const closeBtn = document.querySelector("#close-btn");
+
+//when image is clicked, modal appears
+ 
+document.querySelectorAll("img").forEach((img) =>{
+  img.addEventListener("click", (event) => {
+    img.classList.add("card");
+    card.style.display = "block";
+})
+}
+
+)
+
+//when button is clicked, modal disappears
+closeBtn.addEventListener("click", function(e){
+  if(e.target === closeBtn){
+    card.style.display="none";  
+  }
+})
+
+//if modal is opened we can also click anywhere to hide it
+document.body.addEventListener('click',function(e){
+  if(e.target===card){
+  card.style.display = "none"; 
+  }
+})
+
+//when modal is a block, background should be transparent 
+
+
+
+
+
+
+>>>>>>> anneGrid
 
 
 const button = document.querySelector('button');
@@ -288,6 +354,7 @@ button.addEventListener('click', event => {
 });
 
 
+<<<<<<< HEAD
 
 
 
@@ -296,3 +363,5 @@ button.addEventListener('click', event => {
 //si je clique à l'extérieur
 
 // la class card devient invisible 
+=======
+>>>>>>> anneGrid
