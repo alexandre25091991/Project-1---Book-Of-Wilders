@@ -41,13 +41,51 @@ const profilWilders = [
     lastjob:"Cuisinier",
     newjob:"Développeur Web",
     description:"Ce Fan de chausson Vador nous dit: Pour trouver la rose de sa vie, il faut cueillir la plus belle du jardin et ne plus jamais changer d’avis."
-    firstname: "Anne",
+  },
+  {
+   firstname: "Jocelyn",
     photo:"https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/photo_portrait.png",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
+    name: "Jocelyn Delbarre",
+    age:"37 ans",
+    lastjob:"Clerc d'Huissier",
+    newjob:"Développeur Web",
+    description:"Pour connaitre le sens du vent il faut mettre son doigt dans le cul d'une poule !!!"
+  },
+  {
+    firstname: "Tessa",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Fondeur Tessa",
+    age:"25 ans",
+    lastjob:"Freelance ",
     newjob:"Développeur Web Front-end",
-    description:"blablabla"
+    description:"citation: Le plus lourd fardeau, c'est d'exister sans vivre Victor Hugo. Petit secret: Je jouais à la DS sous mes draps après le coucher ! Dédicace à Papa et Maman ♥"
+  },
+  {
+    firstname: "Hugo",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Hugo Hanocq",
+    age:"21 ans",
+    lastjob:"Modeleur 3D",
+    newjob:"Développeur Web ",
+    description:"Le fromage, miaaaaaam nous dit Hugo"
+  },
+  {
+    firstname: "Ambre",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Ambre Henno",
+    age:"22 ans",
+    lastjob:"Arrêt des études",
+    newjob:"Développeuse Web ou UI/UX Designer",
+    description:"citation:Toujours voir le positif dans le négatif. Son péché mignon: les muffins au chocolat!"
+  },
+  {
+    firstname: "Khouloud",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Khouloud Belkir",
+    age:"30 ans",
+    lastjob:"Prof d'anglais",
+    newjob:"Développeur Web Full-Stack",
+    description: "Citation: Apprendre à s'aimer soi-même, c'est le début d'une grande histoire d'amour qui va durer toute la vie. Oscar Wilde. Son péché mignon: les chewing-gum" 
   },
   {
     firstname: "Anne",
@@ -56,10 +94,109 @@ const profilWilders = [
     age:"32 ans",
     lastjob:"Infographiste",
     newjob:"Développeur Web Front-end",
+    description:"Citation:Aziz! Lumière dans le film Le cinquième élément de Luc besson. Mon péché mignon: Le gateau Opéra"
+  },
+  {
+    firstname: "Florent",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Florent Marin",
+    age:"27 ans",
+    lastjob:"Assitant Monteur",
+    newjob:"Développeur Web",
+    description:"citation:J'ai assez de vices pour faire du bricolages par Rohff. Sa passion: les playlist rnb dans la voiture."
+  },
+  {
+    firstname: "Michael",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Michael McGrath",
+    age:"31 ans",
+    lastjob:"Chargé e-commerce",
+    newjob:"A good job and good life",
+    description:"Son péché mignon: manger trop de bonbon. Son grand secret: ne sait pas faire de division à grands chiffres"
+  },
+  {
+    firstname: "Sacha",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Sacha Loumachi",
+    age:"25 ans",
+    lastjob:"Serveur",
+    newjob:"Un Métier Passionnant",
+    description:"Citation: Faut pas commencer à jouer avec mes couilles hein ! Son péché mignon: RMC découvert et son secret: sosie français de Barack Obama"
+  },
+  {
+    firstname: "Rudy",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Rudy Plessis",
+    age:"29 ans",
+    lastjob:"Développeur Java EE",
+    newjob:"Développeur Web Full-Stack",
+    description:"citation:T'es pas l'pingouin qui glisse le plus loin. Ce cousin éloigné de Jim Carrey aime les lasagnes"
+  },
+  {
+    firstname: "Alexandre",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "alexandre Rohde Ferreira",
+    age:"21 ans",
+    lastjob:"Monteur de Pc",
+    newjob:"Monter sa boîte de Dev",
+    description:"cication: Pierre qui roule n'amasse pas mousse. Son péché mignon: les MonCheri"
+  },
+  {
+    firstname: "Anthony",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Anthony Sénéchal",
+    age:"30 ans",
+    lastjob:"Cariste",
+    newjob:"Développeur Web",
+    description:"citation: Okay, Let's go! Son péché mignon: Le welsh bourgeois"
+  },
+  {
+    firstname: "Marie",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Marie Vangrevelynghe",
+    age:"29 ans",
+    lastjob:"Gérante, Programmeuse Python",
+    newjob:"CyberSecurity Engineer 👨‍💻",
+    description:"citation: Hier est l'histoire, demain est un mystère, aujourd'hui est un cadeau. par Eleanor Roosevelt (Et pas Maître Oogway, bande de fous :P ). Son secret: J'ai été championne départementale d'athlétisme en saut en longueur. (Île de France)"
+  },
+  {
+    firstname: "Marzouk",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Marzouk Yahia",
+    age:"27 ans",
+    lastjob:"Technicien Fibre optique",
+    newjob:"Développeur Web",
+    description:"citation: Doucement mais surement. "
+  },
+  {
+    firstname: "Alexandre",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Alexandre Rouzière",
+    age:"31 ans",
+    lastjob:"Agent Immobilier",
+    newjob:"Développeur Web",
+    description:"Citation: Quand on veut, on peut. Et son péché mignon: les crêpes."
+  },
+  {
+    firstname: "Jade",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Jade",
+    age:"25 ans",
+    lastjob:"Communication",
+    newjob:"Développeur Web",
     description:"blablabla"
   },
   {
-    firstname: "Anne",
+    firstname: "Imène",
+    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
+    name: "Imène",
+    age:"30 ans",
+    lastjob:"",
+    newjob:"",
+    description:"blablabla"
+  },
+  {
+    firstname: "Thomas",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Anne Marchasson",
     age:"32 ans",
@@ -68,175 +205,21 @@ const profilWilders = [
     description:"blablabla"
   },
   {
-    firstname: "Anne",
+    firstname: "Fantine",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
+    name: "Fantine Rudent",
+    age:"30 ans",
+    lastjob:"Educatrice jeunes enfents",
+    newjob:"Créer un projet qui aide les gens",
+    description:" Citation: Quand nous arrivons à la fin de nous-mêmes, nous arrivons au commencement de Dieu. Billy Graham. Son péché mignon: les bonbons qui piquent."
   {
-    firstname: "Anne",
+    firstname: "Félicien",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
+    name: "Félicien",
+    age:"28 ans",
+    lastjob:"",
+    newjob:"Student Manager ",
     description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: "Anne",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Anne Marchasson",
-    age:"32 ans",
-    lastjob:"Infographiste",
-    newjob:"Développeur Web Front-end",
-    description:"blablabla"
-  },
-  {
-    firstname: " Julie ",
-    photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Julie Smith",
-    age:"32 ans",
-    lastjob:"Joueuse de Pétanque",
-    newjob:"Développeur Web Front-end",
-    description:"Je suis une grande curieuse, j'écoute aux portes et n'hésite pas à dénoncer mes voisins. Mon chat se nomme Gaspard et c'est un petit ingrat"
   },
 
 ];
