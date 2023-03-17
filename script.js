@@ -1,8 +1,8 @@
 
 
-
 // Modal
-const cards = document.querySelector(".cards");
+const cards = document.querySelector(".cards-desktop");
+console.log(cards);
 
 // array modal
 const profilWilders = [
@@ -13,8 +13,9 @@ const profilWilders = [
     age:"33 ans",
     lastjob:"Ebeniste",
     newjob:"Trouver du travail à la sortie de formation",
-    description:"Parisienne au grand coeur, adoptée dans ma tendre enfance, j'aime les bons repas entre amis, à table!"
-  },
+    description:"Parisienne au grand coeur, adoptée dans ma tendre enfance, j'aime les bons repas entre amis, à table!",
+    linkedin:"linkedin",
+    },
   {
     firstname: "Mohamed",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
@@ -22,7 +23,8 @@ const profilWilders = [
     age:"27 ans",
     lastjob:"Auto-entrepreneur",
     newjob:"Développeur Web Full-Stack",
-    description:"Je suis un fashionboy, ma casquette est toujours assortie à ma veste, je suis aussi passionnée des voitures."
+    description:"Je suis un fashionboy, ma casquette est toujours assortie à ma veste, je suis aussi passionnée des voitures.",
+    linkedin:"linkedin",
   },
   {
     firstname: "Romain",
@@ -31,7 +33,8 @@ const profilWilders = [
     age:"41 ans",
     lastjob:"Manager",
     newjob:"Developpeur Front-end",
-    description:"Il a un côté sympathique, seulement on le voit toujours de face, nous dit ce jeune amateur de bière. Son plus grand secret: Il travaillait aux pompes funèbres"
+    description:"Il a un côté sympathique, seulement on le voit toujours de face, nous dit ce jeune amateur de bière. Son plus grand secret: Il travaillait aux pompes funèbres",
+    linkedin:"linkedin",
   },
   {
     firstname: "Alexandre",
@@ -40,7 +43,8 @@ const profilWilders = [
     age:"21 ans",
     lastjob:"Cuisinier",
     newjob:"Développeur Web",
-    description:"Ce Fan de chausson Vador nous dit: Pour trouver la rose de sa vie, il faut cueillir la plus belle du jardin et ne plus jamais changer d’avis."
+    description:"Ce Fan de chausson Vador nous dit: Pour trouver la rose de sa vie, il faut cueillir la plus belle du jardin et ne plus jamais changer d’avis.",
+    linkedin:"linkedin",
   },
   {
    firstname: "Jocelyn",
@@ -49,8 +53,8 @@ const profilWilders = [
     age:"37 ans",
     lastjob:"Clerc d'Huissier",
     newjob:"Développeur Web",
-    description:"Pour connaitre le sens du vent il faut mettre son doigt dans le cul d'une poule !!!"
-  },
+    description:"Pour connaitre le sens du vent il faut mettre son doigt dans le cul d'une poule !!!",
+    linkedin:"linkedin",},
   {
     firstname: "Tessa",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
@@ -58,7 +62,8 @@ const profilWilders = [
     age:"25 ans",
     lastjob:"Freelance ",
     newjob:"Développeur Web Front-end",
-    description:"citation: Le plus lourd fardeau, c'est d'exister sans vivre Victor Hugo. Petit secret: Je jouais à la DS sous mes draps après le coucher ! Dédicace à Papa et Maman ♥"
+    description:"citation: Le plus lourd fardeau, c'est d'exister sans vivre Victor Hugo. Petit secret: Je jouais à la DS sous mes draps après le coucher ! Dédicace à Papa et Maman ♥",
+    linkedin:"linkedin",
   },
   {
     firstname: "Hugo",
@@ -67,7 +72,8 @@ const profilWilders = [
     age:"21 ans",
     lastjob:"Modeleur 3D",
     newjob:"Développeur Web ",
-    description:"Le fromage, miaaaaaam nous dit Hugo"
+    description:"Le fromage, miaaaaaam nous dit Hugo",
+    linkedin:"linkedin",
   },
   {
     firstname: "Ambre",
@@ -76,7 +82,8 @@ const profilWilders = [
     age:"22 ans",
     lastjob:"Arrêt des études",
     newjob:"Développeuse Web ou UI/UX Designer",
-    description:"citation:Toujours voir le positif dans le négatif. Son péché mignon: les muffins au chocolat!"
+    description:"citation:Toujours voir le positif dans le négatif. Son péché mignon: les muffins au chocolat!",
+    linkedin:"linkedin",
   },
   {
     firstname: "Khouloud",
@@ -85,7 +92,8 @@ const profilWilders = [
     age:"30 ans",
     lastjob:"Prof d'anglais",
     newjob:"Développeur Web Full-Stack",
-    description: "Citation: Apprendre à s'aimer soi-même, c'est le début d'une grande histoire d'amour qui va durer toute la vie. Oscar Wilde. Son péché mignon: les chewing-gum" 
+    description: "Citation: Apprendre à s'aimer soi-même, c'est le début d'une grande histoire d'amour qui va durer toute la vie. Oscar Wilde. Son péché mignon: les chewing-gum" ,
+    linkedin:"linkedin",
   },
   {
     firstname: "Anne",
@@ -94,7 +102,8 @@ const profilWilders = [
     age:"32 ans",
     lastjob:"Infographiste",
     newjob:"Développeur Web Front-end",
-    description:"Citation:Aziz! Lumière dans le film Le cinquième élément de Luc besson. Mon péché mignon: Le gateau Opéra"
+    description:"Citation:Aziz! Lumière dans le film Le cinquième élément de Luc besson. Mon péché mignon: Le gateau Opéra",
+    linkedin:"linkedin",
   },
   {
     firstname: "Florent",
@@ -103,7 +112,8 @@ const profilWilders = [
     age:"27 ans",
     lastjob:"Assitant Monteur",
     newjob:"Développeur Web",
-    description:"citation:J'ai assez de vices pour faire du bricolages par Rohff. Sa passion: les playlist rnb dans la voiture."
+    description:"citation:J'ai assez de vices pour faire du bricolages par Rohff. Sa passion: les playlist rnb dans la voiture.",
+    linkedin:"linkedin",
   },
   {
     firstname: "Michael",
@@ -112,7 +122,8 @@ const profilWilders = [
     age:"31 ans",
     lastjob:"Chargé e-commerce",
     newjob:"A good job and good life",
-    description:"Son péché mignon: manger trop de bonbon. Son grand secret: ne sait pas faire de division à grands chiffres"
+    description:"Son péché mignon: manger trop de bonbon. Son grand secret: ne sait pas faire de division à grands chiffres",
+    linkedin:"linkedin",
   },
   {
     firstname: "Sacha",
@@ -121,7 +132,8 @@ const profilWilders = [
     age:"25 ans",
     lastjob:"Serveur",
     newjob:"Un Métier Passionnant",
-    description:"Citation: Faut pas commencer à jouer avec mes couilles hein ! Son péché mignon: RMC découvert et son secret: sosie français de Barack Obama"
+    description:"Citation: Faut pas commencer à jouer avec mes couilles hein ! Son péché mignon: RMC découvert et son secret: sosie français de Barack Obama",
+    linkedin:"linkedin",
   },
   {
     firstname: "Rudy",
@@ -130,7 +142,8 @@ const profilWilders = [
     age:"29 ans",
     lastjob:"Développeur Java EE",
     newjob:"Développeur Web Full-Stack",
-    description:"citation:T'es pas l'pingouin qui glisse le plus loin. Ce cousin éloigné de Jim Carrey aime les lasagnes"
+    description:"citation:T'es pas l'pingouin qui glisse le plus loin. Ce cousin éloigné de Jim Carrey aime les lasagnes",
+    linkedin:"linkedin",
   },
   {
     firstname: "Alexandre",
@@ -139,8 +152,8 @@ const profilWilders = [
     age:"21 ans",
     lastjob:"Monteur de Pc",
     newjob:"Monter sa boîte de Dev",
-    description:"cication: Pierre qui roule n'amasse pas mousse. Son péché mignon: les MonCheri"
-  },
+    description:"cication: Pierre qui roule n'amasse pas mousse. Son péché mignon: les MonCheri",
+    linkedin:"linkedin",},
   {
     firstname: "Anthony",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
@@ -148,7 +161,8 @@ const profilWilders = [
     age:"30 ans",
     lastjob:"Cariste",
     newjob:"Développeur Web",
-    description:"citation: Okay, Let's go! Son péché mignon: Le welsh bourgeois"
+    description:"citation: Okay, Let's go! Son péché mignon: Le welsh bourgeois",
+    linkedin:"linkedin",
   },
   {
     firstname: "Marie",
@@ -157,7 +171,8 @@ const profilWilders = [
     age:"29 ans",
     lastjob:"Gérante, Programmeuse Python",
     newjob:"CyberSecurity Engineer 👨‍💻",
-    description:"citation: Hier est l'histoire, demain est un mystère, aujourd'hui est un cadeau. par Eleanor Roosevelt (Et pas Maître Oogway, bande de fous :P ). Son secret: J'ai été championne départementale d'athlétisme en saut en longueur. (Île de France)"
+    description:"citation: Hier est l'histoire, demain est un mystère, aujourd'hui est un cadeau. par Eleanor Roosevelt (Et pas Maître Oogway, bande de fous :P ). Son secret: J'ai été championne départementale d'athlétisme en saut en longueur. (Île de France)",
+    linkedin:"linkedin",
   },
   {
     firstname: "Marzouk",
@@ -166,7 +181,8 @@ const profilWilders = [
     age:"27 ans",
     lastjob:"Technicien Fibre optique",
     newjob:"Développeur Web",
-    description:"citation: Doucement mais surement. "
+    description:"citation: Doucement mais surement. ",
+    linkedin:"linkedin",
   },
   {
     firstname: "Alexandre",
@@ -175,7 +191,8 @@ const profilWilders = [
     age:"31 ans",
     lastjob:"Agent Immobilier",
     newjob:"Développeur Web",
-    description:"Citation: Quand on veut, on peut. Et son péché mignon: les crêpes."
+    description:"Citation: Quand on veut, on peut. Et son péché mignon: les crêpes.",
+    linkedin:"linkedin",
   },
   {
     firstname: "Jade",
@@ -184,7 +201,8 @@ const profilWilders = [
     age:"25 ans",
     lastjob:"Communication",
     newjob:"Développeur Web",
-    description:"blablabla"
+    description:"blablabla",
+    linkedin:"linkedin",
   },
   {
     firstname: "Imène",
@@ -193,7 +211,8 @@ const profilWilders = [
     age:"30 ans",
     lastjob:"",
     newjob:"",
-    description:"blablabla"
+    description:"blablabla",
+    linkedin:"linkedin",
   },
   {
     firstname: "Thomas",
@@ -202,7 +221,8 @@ const profilWilders = [
     age:"32 ans",
     lastjob:"Infographiste",
     newjob:"Développeur Web Front-end",
-    description:"blablabla"
+    description:"blablabla",
+    linkedin:"linkedin",
   },
   {
     firstname: "Fantine",
@@ -211,21 +231,24 @@ const profilWilders = [
     age:"30 ans",
     lastjob:"Educatrice jeunes enfents",
     newjob:"Créer un projet qui aide les gens",
-    description:" Citation: Quand nous arrivons à la fin de nous-mêmes, nous arrivons au commencement de Dieu. Billy Graham. Son péché mignon: les bonbons qui piquent."
-  {
+    description:" Citation: Quand nous arrivons à la fin de nous-mêmes, nous arrivons au commencement de Dieu. Billy Graham. Son péché mignon: les bonbons qui piquent.",
+    linkedin:"linkedin",
+  },
+    {
     firstname: "Félicien",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
-    name: "Félicien",
+    name: "Félicien Renaud",
     age:"28 ans",
     lastjob:"",
     newjob:"Student Manager ",
-    description:"blablabla"
+    description:"blablabla",
+    linkedin:"https://www.linkedin.com/in/felicienrenaud/",
   },
 
 ];
 
 // copy  item array in modal card 
-function createCard ({firstname, photo, name, age, lastjob, newjob, description}) {  
+function createCard ({firstname, photo, name, age, lastjob, newjob, description, linkedin}) {  
 
 
     const cardWilder = document.createElement("div");
@@ -266,11 +289,14 @@ function createCard ({firstname, photo, name, age, lastjob, newjob, description}
     descriptionWilder.classList.add("description");
     descriptionWilder.innerHTML=description;
     cardWilder.appendChild(descriptionWilder);
+  
 
-    const cardButton = document.createElement("button");
-    cardButton.classList.add("card-button");
-    cardButton.innerHTML = "Linkedin";
-    cardWilder.appendChild(cardButton);
+    const linkedinLink = document.createElement("a");
+    linkedinLink.classList.add("card-button");
+    linkedinLink.href = linkedin;
+    cardWilder.appendChild(linkedinLink);
+
+    
 
 }
 //loop to set presentation cards
@@ -279,6 +305,8 @@ for (let i=0; i < profilWilders.length; i++) {
     createCard(profilWilders[i]);
 
 }
+
+
 
 //handling cards
 //let cards = document.querySelectorAll("img");
