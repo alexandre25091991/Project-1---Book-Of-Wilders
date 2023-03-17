@@ -15,7 +15,7 @@ body {
 
 #titlecontact {
     width: 100%;
-    font-family: 'IBM Plex Sans Condensed';
+    font-family: 'Bebas Neue', cursive;
     font-size: xx-large;
     color: #efefe8;
     margin-top: 20%;
@@ -98,7 +98,7 @@ button {
 
     #titlecontact {
         width: 100%;
-        font-family: 'IBM Plex Sans Condensed';
+        font-family: 'Bebas Neue', cursive;
         font-size: xx-large;
         color: #efefe8;
         margin-top: 5%;
@@ -115,13 +115,20 @@ button {
         margin: 2%;
     }
 
+    /* form {
+        background-color: #98B92C;
+    } */
+
     .contact {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        margin-left: 2%;
+        margin-right: 2%;
         margin-top: 0%;
+        padding: 3%;
         font-family: 'IBM Plex Sans Condensed', sans-serif;
-        background-color: #efefe8;
+        background-color: #98B92C;
     }
 
     label {
@@ -137,12 +144,15 @@ button {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 50%;
+        width: 40%;
         margin-bottom: 2%;
+        padding: 1%;
         border: none;
-        background-color: #efefe8;
-        border-bottom: solid #4368AF 1px;
-        padding: 2%;
+    }
+
+    .personal-info {
+        width: 100%;
+        padding: 0%;
     }
 }
 
