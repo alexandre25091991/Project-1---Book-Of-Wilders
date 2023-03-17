@@ -11,6 +11,67 @@ body {
     background-color: #efefe8;
 }
 
+/* css desktop version  */
+
+.introduction {
+    display:  inline-flex;
+    background: url(imagebackground.png);
+    padding: 25px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+    height: 48vh; 
+    width: 100%;
+    position: relative; 
+    top: 20%
+  }
+ 
+  .paragraph {
+    line-height: 2.5;
+    text-align: justify;
+    padding: 30px 20px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .paragraph h1 {
+    color:  #98B92C;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .paragraph p {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: bold;
+    
+
+  }
+  #first_img {
+    padding: 6rem 30px;
+  }
+.carousel {
+  display: block;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  line-height: 1.5;
+}
+
+#close-btn {
+    color: tomato;
+    font-size: 45px;
+    font-weight: bolder;
+    padding-left: 0.4rem;
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  } 
+
+
 /* CSS for MOBILE CONTACT ! */
 
 #titlecontact {

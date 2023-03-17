@@ -30,8 +30,10 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     width: 800px;
-    margin-right: auto;
-    margin-left: auto;
+    /* margin-right: auto;
+    margin-left: auto; */
+    padding-left: 70px;
+    padding-top: 35px;
 }
 
 
@@ -39,6 +41,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 10%;
+    width: 170px; 
 
 }
 
@@ -54,6 +58,8 @@
 
 .titleSection .span1 {
     color: #CC6644;
+    font-size: 65px;
+
 
 }
 
@@ -63,20 +69,19 @@
     margin: auto;
     left: 0;
     right: 0;
-    top: 0;
+    top: 120vh;
     bottom: 0;
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: start;
     background-color: #efefe8;
 
-    height: 90%;
-    width: 400px;
+    height: 65%;
+    width: 500px;
     border-radius: 21px 21px 21px 21px;
     -webkit-border-radius: 20px 21px 21px 21px;
     -moz-border-radius: 20px 21px 21px 21px;
-    border: 1px solid #efefe8;
+    border: 1px solid #a6a68c;
 
     animation-name: modalAnimation;
 }
@@ -148,7 +153,7 @@ h3 {
     padding: 1%;
     width: 90px;
     margin-bottom: 10%;
-    margin-left: 50%;
+   margin-left: auto;
     background: linear-gradient(to bottom right, #4368AF, #262681);
     border-radius: 8px 8px 8px 8px;
     box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.31)
@@ -182,149 +187,3 @@ h3 {
     cursor: pointer;
 }
 
-
-
-/* CSS Anne  */
-/* 
-@font-face {
-    font-family: 'Schoolwork';
-    src: url('Schoolwork-Regular.eot');
-    src: url('Schoolwork-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Schoolwork-Regular.woff2') format('woff2'),
-        url('Schoolwork-Regular.woff') format('woff'),
-        url('Schoolwork-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Tw Cen MT Condensed';
-    src: url('TwCenMT-Condensed.eot');
-    src: url('TwCenMT-Condensed.eot?#iefix') format('embedded-opentype'),
-        url('TwCenMT-Condensed.woff2') format('woff2'),
-        url('TwCenMT-Condensed.woff') format('woff'),
-        url('TwCenMT-Condensed.ttf') format('truetype'),
-        url('TwCenMT-Condensed.svg#TwCenMT-Condensed') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-​
-
-.cards {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-​
-.img-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-​
-.titleSection {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    grid-area: 2 / 3 / 4 / 7;
-    text-align: center;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
-    color: #4368AF;
-    font-size: 300%;
-    margin: auto;
-}
-
-
-.titleSection .span1 {
-    color: #CC6644;
-}
-
-
-​
-.card {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    background-color: #efefe8;
-
-    height: 90%;
-    width: 50%;
-    border-radius: 21px 21px 21px 21px;
-    -webkit-border-radius: 20px 21px 21px 21px;
-    -moz-border-radius: 20px 21px 21px 21px;
-    border: 1px solid #efefe8;
-
-
-}
-​
-h3 {
-    width: 100%;
-    height: 15%;
-    font-family: 'Schoolwork';
-    font-weight: normal;
-    font-style: normal;
-    color: white;
-    font-size: 60px;
-    margin: 0;
-    text-align: center;
-    padding-top: 5%;
-    -webkit-border-radius: 21px 21px 0px 0px;
-    border: none !important;
-    background: linear-gradient(90deg, rgba(59,85,134,1) 0%, rgba(67,104,175,1) 39%, rgba(117,156,230,1) 100%);
-}
-​
-.photo {
-    border: solid !important;
-    background-size: cover !important;
-    background-position: center !important;
-    height: 100px;
-    width: 100px;
-    background-image: url("https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0");
-    margin:5%;
-    background-color: white;
-    -webkit-border-radius: 20px 20px 20px 19px;
-}
-.name, .age, .last-job, .new-job, .description{
-    font-family: 'Tw Cen MT Condensed';
-
-}
-.name {
-    font-size: 25px;
-    margin: 4px;
-}
-.age, .last-job, .new-job {
-    font-size: 20px;
-}
-.description {
-    text-align: justify;
-    font-size: 20px;
-    width: 80%;
-    height: 20%;
-    margin: 2%;
-}​
-
-
-
-.card-button {
-    font-family: 'Tw Cen MT Condensed';
-    font-size: 25px;
-    color: #EFEFE8;
-    padding: 1%;
-    width: 90px;
-    margin-bottom: 10%;
-    margin-left: 50%;
-    background: linear-gradient(to bottom right, #4368AF, #262681);
-    border-radius: 8px 8px 8px 8px;
-    box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.31)
-}  */

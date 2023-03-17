@@ -1,8 +1,5 @@
 
-
-// Modal
-const cards = document.querySelector(".cards-desktop");
-console.log(cards);
+const cards = document.querySelector(".cards");
 
 // array modal
 const profilWilders = [
@@ -311,8 +308,8 @@ for (let i=0; i < profilWilders.length; i++) {
 
 
 //handling cards
-//let cards = document.querySelectorAll("img");
-//let images = document.querySelectorAll(".img-grid"); 
+let imageBox = document.querySelectorAll("img");
+let images = document.querySelectorAll(".img-grid"); 
 const card = document.querySelector(".card")
 const closeBtn = document.querySelector("#close-btn");
 
