@@ -7,6 +7,7 @@ console.log(cards);
 // array modal
 const profilWilders = [
   {
+    id:1,
     firstname: "Val",
     photo:"https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/photo_portrait.png",
     name: "Val Agostini",
@@ -17,6 +18,7 @@ const profilWilders = [
     linkedin:"linkedin",
     },
   {
+    id:2,
     firstname: "Mohamed",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Mohamed Ait Amar",
@@ -27,6 +29,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/%F0%9F%92%BB-mohamed-a%C3%AFt-amar-95411523b/",
   },
   {
+    id:3,
     firstname: "Romain",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Romain Constant",
@@ -37,6 +40,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/romain-constant-969149152/",
   },
   {
+    id:4,
     firstname: "Alexandre",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Alexandre Delbarre",
@@ -47,6 +51,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/alexandre-delbarre-6635b0264/",
   },
   {
+    id:5,
    firstname: "Jocelyn",
     photo:"https://d1nhio0ox7pgb.cloudfront.net/_img/o_collection_png/green_dark_grey/256x256/plain/photo_portrait.png",
     name: "Jocelyn Deloose",
@@ -57,6 +62,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/jocelyn-deloose-990615246/",
   },
   {
+    id:6,
     firstname: "Tessa",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Fondeur Tessa",
@@ -67,6 +73,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/tessa-fondeur-431b2015b/",
   },
   {
+    id:7,
     firstname: "Hugo",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Hugo Hanocq",
@@ -77,6 +84,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/hugo-hanocq-891342183/",
   },
   {
+    id:8,
     firstname: "Ambre",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Ambre Henno",
@@ -87,6 +95,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/ambre-h-34b97b248/",
   },
   {
+    id: 9,
     firstname: "Khouloud",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Khouloud Belkir",
@@ -97,6 +106,7 @@ const profilWilders = [
     linkedin:"linkedin",
   },
   {
+    id:10 ,
     firstname: "Anne",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Anne Marchasson",
@@ -107,6 +117,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/anne-marchasson/",
   },
   {
+    id:11 ,
     firstname: "Florent",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Florent Marin",
@@ -117,6 +128,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/florent-m-297455194/",
   },
   {
+    id: 12,
     firstname: "Michael",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Michael McGrath",
@@ -127,6 +139,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/michael-mc-grath/",
   },
   {
+    id: 13,
     firstname: "Sacha",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Sacha Loumachi",
@@ -137,6 +150,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/sacha-loumachi-28251b269/",
   },
   {
+    id: 14,
     firstname: "Rudy",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Rudy Plessis",
@@ -147,6 +161,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/rudy-plessis/",
   },
   {
+    id: 15,
     firstname: "Alexandre",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "alexandre Rohde Ferreira",
@@ -157,6 +172,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/alexandre-rohde-ferreira-337662250/",
   },
   {
+    id: 16,
     firstname: "Anthony",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Anthony Sénéchal",
@@ -167,6 +183,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/anthony-senechal-1b0928265/",
   },
   {
+    id: 17,
     firstname: "Marie",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Marie Vangrevelynghe",
@@ -177,6 +194,7 @@ const profilWilders = [
     linkedin:"lhttps://www.linkedin.com/in/marie-vangrevelynghe/",
   },
   {
+    id: 18,
     firstname: "Marzouk",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Marzouk Yahia",
@@ -187,6 +205,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/yahia-marzouk-b69799266/",
   },
   {
+    id: 19,
     firstname: "Alexandre",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Alexandre Rouzière",
@@ -197,6 +216,7 @@ const profilWilders = [
     linkedin:"linkedin",
   },
   {
+    id: 20,
     firstname: "Jade",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Jade-Ambre Rousseau",
@@ -207,6 +227,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/jadambre/",
   },
   {
+    id: 21,
     firstname: "Imène",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Imène Ramdan",
@@ -217,6 +238,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/imene-ramdan/",
   },
   {
+    id: 22,
     firstname: "Thomas",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Thomas Nigon",
@@ -227,6 +249,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/thomas-nigon-3699a1267/",
   },
   {
+    id: 23,
     firstname: "Fantine",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Fantine Rudent",
@@ -237,6 +260,7 @@ const profilWilders = [
     linkedin:"https://www.linkedin.com/in/fantine-rudent/",
   },
     {
+    id: 24,
     firstname: "Félicien",
     photo:"https://tse2.mm.bing.net/th?id=OIP.cbrr9tKCTHyHU1OzNHxemQHaHa&pid=Api&P=0",
     name: "Félicien Renaud",
@@ -257,6 +281,7 @@ function createCard ({firstname, photo, name, age, lastjob, newjob, description,
     cardWilder.classList.add("card");
     cards.appendChild(cardWilder);
 
+    
     const firstNameWilder = document.createElement("h3");
     firstNameWilder.innerHTML= firstname;
     firstNameWilder.classList.add("firstname-title");
@@ -303,52 +328,60 @@ function createCard ({firstname, photo, name, age, lastjob, newjob, description,
 }
 //loop to set presentation cards
 for (let i=0; i < profilWilders.length; i++) {
-    
-    createCard(profilWilders[i]);
 
+    createCard(profilWilders[i]);
 }
 
 
 
-//handling cards
-//let cards = document.querySelectorAll("img");
-//let images = document.querySelectorAll(".img-grid"); 
-const card = document.querySelector(".card")
-const closeBtn = document.querySelector("#close-btn");
+
+//for (let i=0; i < profilWilders.length; i++) {
+//ajouter un id incrémenté à card????
+//}
+
+
+
+
+
+
+
+
+// handling cards
+
+ const card = document.querySelector(".card")
+ const closeBtn = document.querySelector("#close-btn");
 
 //when image is clicked, modal appears
  
 document.querySelectorAll("img").forEach((img) =>{
-  img.addEventListener("click", (event) => {
-    img.classList.add("card");
-    card.style.display = "block";
-})
-}
+   img.addEventListener("click", (event) => {
+     card.style.display = "flex";
+ })
+ }
 
-)
+ )
 
 //when button is clicked, modal disappears
-closeBtn.addEventListener("click", function(e){
-  if(e.target === closeBtn){
-    card.style.display="none";  
-  }
-})
+ closeBtn.addEventListener("click", function(e){
+   if(e.target === closeBtn){
+     card.style.display="none";  
+   }
+ })
 
-//if modal is opened we can also click anywhere to hide it
-document.body.addEventListener('click',function(e){
-  if(e.target===card){
-  card.style.display = "none"; 
-  }
-})
+ /*//if modal is opened we can also click anywhere to hide it
+ //après vérification ce bout de code fait disparaitre les images
+ document.body.addEventListener('click',function(e){
+   if(e.target===card){
+   card.style.display = "none"; 
+   }
+ })
 
-//when modal is a block, background should be transparent 
+ //when modal is a block, background should be transparent 
 
+ /*const button = document.querySelector('button');
 
-
-const button = document.querySelector('button');
-
-button.addEventListener('click', event => {
-  button.innerHTML = `Nombre de clics : ${event.detail}`;
-});
-
+ button.addEventListener('click', event => {
+   button.innerHTML = `Nombre de clics : ${event.detail}`;
+ });
+*/
 

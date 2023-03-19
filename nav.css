@@ -14,8 +14,10 @@
     align-items: center;
 }
 
-.photo {
-    box-shadow: 8px 9px 5px 0px rgba(0, 0, 0, 0.75);
+.photo-logo {
+    -webkit-filter: drop-shadow(5px 5px 5px #203660);
+    
+    
 }
 
 ul {
@@ -148,8 +150,7 @@ a:hover {
 }
 
 footer {
-    bottom: 0;
-    position: absolute;
+   
     width: 100%;
     height: 5%;
     text-align: center;

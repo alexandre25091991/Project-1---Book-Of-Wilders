@@ -10,9 +10,10 @@
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="nav.css">
     <link rek="stylesheet" href="tablet.css">
-    <link rel="preload" href="Schoolwork-Regular.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Condensed:wght@500&display=swap"
         rel="stylesheet">
@@ -22,8 +23,8 @@
 <body>
     <nav>
         <div class="Navbar">
-            <div class="photo">
-                <img src="logo.png" alt="logo"></img>
+            <div class="photo-logo">
+                <img src="photos\logo.png" alt="logo">
             </div>
             <div class="links">
                 <ul>
@@ -51,9 +52,10 @@
             </div>
         </div>
     </nav>
-    <div class="introduction">
-        <div class="paragraph">
-            <h1>A propos :</h1>
+    <section class="introduction">
+        <div class ="introduction-content">
+            <div class="paragraph">
+            <h2 class="title-a-propos">A propos :</h2>
 
             <p> Notre team est ravie de vous présenter ce projet "Book of the wilders", un trombinoscope numériques des
                 élèves de la WSC.
@@ -61,14 +63,15 @@
                 inspirer d'éventuelles reconversions et promouvoir le savoir faire des étudiants de notre école.
             </p>
 
+            </div>
+            <div id="first_img">
+                <img src="photos\logoW.png" alt="" />
+            </div>
         </div>
-        <div id="first_img">
-            <img src="logoW.png" alt="" />
-        </div>
-    </div>
+    </section>
 
-    <div class="tablet">
-        <div class="wrapper">
+     <div class="tablet">
+        <!-- <div class="wrapper">
             <i id="left" class="fa-solid fa-chevron-left"></i>
             <div class="carousel">
                 <div class="cards">
@@ -94,41 +97,42 @@
                 <button class="card-button"></button>
                 <div id="close-btn">&times;</div>
             </div>
-        </div>
-    </div>
+        </div>-->
+    </div> 
 
 
-    <section class="grid-trombiphototest.png">
+    <section class="wilders">
 
         <div class=" cards-desktop">
             <h2 class=" titleSection">
-                <span class="span1">W</span>ILDERS </br><span class="span2">2023</span>
+                <img class="img-title-selection" src="photos\img-titre.png">
             </h2>
             <!-- photos -->
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
-            <img class="img-grid" src="phototest.png">
+            
+            <img class="img-grid" id="photo-val-1"src="photos\photosEleveDegrade\val.png">
+            <img class="img-grid" id="photo-mohamed-2" src="photos\photosEleveDegrade\mohamed.png">
+            <img class="img-grid" id="photo--romain-3 "src="photos\photosEleveDegrade\romain.png">
+            <img class="img-grid" id="photo-alexD-4" src="photos\photosEleveDegrade\alexD.png">
+            <img class="img-grid" id="photo-jocelyn-5" src="photos\photosEleveDegrade\jocelyn.png">
+            <img class="img-grid" id="photo-tessa-6" src="photos\photosEleveDegrade\tessa.png">
+            <img class="img-grid" id="photo-hugo-7" src="phototest.png">
+            <img class="img-grid" id="photo-ambre-8" src="photos\photosEleveDegrade\ambre.png">
+            <img class="img-grid" id="photo-khouloud-9" src="photos\photosEleveDegrade\khouloud.png">
+            <img class="img-grid" id="photo-anne-10" src="photos\photosEleveDegrade\anne.png">
+            <img class="img-grid" id="photo-florent-11" src="photos\photosEleveDegrade\florent.png">
+            <img class="img-grid" id="photo-michael-12"src="photos\photosEleveDegrade\michael.png">
+            <img class="img-grid" id="photo-sacha-13" src="photos\photosEleveDegrade\sacha.png">
+            <img class="img-grid" id="photo-rudy-14"src="photos\photosEleveDegrade\rudy.png">
+            <img class="img-grid" id="photo-alexF-15" src="photos\photosEleveDegrade\alexF.png">
+            <img class="img-grid" id="photo-anthony-16" src="photos\photosEleveDegrade\anthony.png">
+            <img class="img-grid" id="photo-marie-17" src="phototest.png">
+            <img class="img-grid" id="photo-marzouk-18" src="phototest.png">
+            <img class="img-grid" id="photo-alexR-19" src="photos\photosEleveDegrade\alexR.png">
+            <img class="img-grid" id="photo-jade-20" src="phototest.png">
+            <img class="img-grid" id="photo-imene-21" src="photos\photosEleveDegrade\imene.png">
+            <img class="img-grid" id="photo-thomas-22"src="phototest.png">
+            <img class="img-grid" id="photo-Fantine-23" src="photos\photosEleveDegrade\fantine.png">
+            <img class="img-grid" id="photo-felicien-24" src="photos\photosEleveDegrade\felicien.png">
 
             <!-- Modal content -->
             <div class="card">
@@ -140,7 +144,7 @@
                 <div class="new-job">Développeur web Front-end</div>
                 <div class="description">blablabla</div>
                 <a class="card-a"> linkedin </a>
-                <div id="close-btn">&times;</div>
+                <div id="close-btn">x</div>
             </div>
         </div>
     </section>

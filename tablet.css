@@ -50,7 +50,9 @@
 .carousel {
   display: block;
 }
-
+.tablet{
+  display: none;
+}
 .description {
   display: flex;
   flex-direction: column;
