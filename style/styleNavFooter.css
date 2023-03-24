@@ -1,0 +1,120 @@
+*{
+  font-family: 'IBM Plex Sans Condensed', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.scrollingMenu{
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    float:right;
+    padding-right:4%;
+    position: relative;
+    bottom: 55px;
+}
+.photologo{
+  width:10%;
+  height: 10%;
+  padding-left:10%;
+}
+.dropdown-menu-content {
+    display: none;
+    list-style: none;
+    background-color: rgba(118, 9, 9, 0.123);
+    width: 109px;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 1.2rem;
+    background-color: #4368af;
+    width: -100px;
+    padding-top: 30px;
+  }
+  .dropdown-menu-content li {
+    margin-bottom: 10px;
+
+  }
+  .visible {
+    display: block;
+  }
+  
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 900,
+    'GRAD' 200,
+    'opsz' 48,
+  }
+  .material-symbols-outlined{
+    width: 70px;
+    height:40px;
+    border: none;
+    padding-top:2px;
+    padding-left: 20px;
+    background-color:#4368af;
+    color: white;
+  }
+  .dropdown-btn{
+    border-style: none;
+    border-radius: 20%;
+    margin-right:20px;
+  }
+
+.Navbar{
+  display:flex;
+  align-items: center;
+  width: 100%;
+  background-color:#4368af;
+  position:sticky;
+}
+.links {
+  display: none;
+}
+
+a{
+  text-decoration:none;
+  color: white;
+}
+
+@media only screen and (min-width:700px){
+  .dropdown-btn{
+    display:none;
+  }
+  .dropdown-menu-content{
+    display:none;
+  }
+  ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 1.5em;
+    padding: 2rem;
+}
+.links{
+  display: block;
+}
+li {
+  padding: 2rem;
+  text-decoration: none;
+}
+li a:hover {
+  color: beige;
+  font-size: 0.8em;
+}
+a{
+  color:white;
+  text-decoration: none;
+}
+.Navbar{
+  display:flex;
+  justify-content: space-between;
+}
+}
+
+footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: 5%;
+  text-align: center;
+  font-size: 1rem;
+  background-color: #4368af;
+  color: white;
+  padding-top: 1%;
+}

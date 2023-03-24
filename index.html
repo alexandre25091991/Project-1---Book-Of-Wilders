@@ -1,68 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>- P1 </title>
-    <link rel="stylesheet" href="photo-grid.css">
-    <link rel="stylesheet" href="form.css">
-    <link rel="stylesheet" href="nav.css">
-    <link rek="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="style\styleNavFooter.css">
+    <link rel="stylesheet" href="style\photo-grid.css">
+    <link rel="stylesheet" href="style\formu.css">
+    <link rek="stylesheet" href="style\tablet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Condensed:wght@500&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans+Condensed:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <nav>
         <div class="Navbar">
-            <div class="photo-logo">
+            <div class="photologo">
                 <img src="photos\logo.png" alt="logo">
             </div>
             <div class="links">
                 <ul>
-                    <li><a href="#A propos">A propos</a></li>
-                    <li><a href="Les Wilders 2023">Les Wilders 2023</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </div>
-            <div id="menuToggle">
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-                <ul id="menu">
-                    <a href="#">
-                        <li>A propos</li>
-                    </a>
-                    <a href="#">
-                        <li>Les Wilders 2023</li>
-                    </a>
-                    <a href="#">
-                        <li>Contact</li>
-                    </a>
+                    <li><a href="#introduction">A propos</a></li>
+                    <li><a href="#LesWilders2023">Les Wilders 2023</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
+        <div class="scrollingMenu">
+            <ul>
+                <button class="dropdown-btn"><span class="material-symbols-outlined">home</span></button>
+                <div class="dropdown-menu-content">
+                    <li><a href="#introduction">A propos</a></li><br>
+                    <li><a href="#LesWilders2023">Les Wilders 2023</a></li><br>
+                    <li><a href="#contact">Contact</a></li><br>
+                </div>
+            </ul>
+        </div>
     </nav>
-    <section class="introduction">
-        <div class ="introduction-content">
+
+    <section class="introduction" id="introduction">
+        <div class="introduction-content">
             <div class="paragraph">
-            <h2 class="title-a-propos">A propos :</h2>
-
-            <p> Notre team est ravie de vous présenter ce projet "Book of the wilders", un trombinoscope numériques des
-                élèves de la WSC.
-                Nous espérons créer des vocations chez d'autres personnes ayant la fibre numérique,
-                inspirer d'éventuelles reconversions et promouvoir le savoir faire des étudiants de notre école.
-            </p>
-
+                <h2 class="title-a-propos">A propos :</h2>
+                <p> Notre team est ravie de vous présenter ce projet "Book of the wilders", un trombinoscope numérique
+                    desélèves de la WSC.
+                    Nous espérons créer des vocations chez d'autres personnes ayant la fibre numérique,
+                    inspirer d'éventuelles reconversions et promouvoir le savoir faire des étudiants de notre école.
+                </p>
             </div>
             <div id="first_img">
                 <img src="photos\logoW.png" alt="" />
@@ -70,7 +59,7 @@
         </div>
     </section>
 
-     <div class="tablet">
+    <div class="tablet">
         <!-- <div class="wrapper">
             <i id="left" class="fa-solid fa-chevron-left"></i>
             <div class="carousel">
@@ -98,120 +87,101 @@
                 <div id="close-btn">&times;</div>
             </div>
         </div>-->
-    </div> 
+    </div>
 
-
-    <section class="wilders">
-
-        <div class=" cards-desktop">
+    <section class="LesWilders2023" id="LesWilders2023">
+    <div class=" cards-desktop">
             <h2 class=" titleSection">
                 <img class="img-title-selection" src="photos\img-titre.png">
             </h2>
-            <!-- photos -->
-            
-            <img class="img-grid" id="photo-val-1"src="photos\photosEleveDegrade\val.png">
+            <img class="img-grid" id="photo-val-1" src="photos\photosEleveDegrade\val.png">
             <img class="img-grid" id="photo-mohamed-2" src="photos\photosEleveDegrade\mohamed.png">
-            <img class="img-grid" id="photo--romain-3 "src="photos\photosEleveDegrade\romain.png">
+            <img class="img-grid" id="photo-romain-3" src="photos\photosEleveDegrade\romain.png">
             <img class="img-grid" id="photo-alexD-4" src="photos\photosEleveDegrade\alexD.png">
             <img class="img-grid" id="photo-jocelyn-5" src="photos\photosEleveDegrade\jocelyn.png">
             <img class="img-grid" id="photo-tessa-6" src="photos\photosEleveDegrade\tessa.png">
-            <img class="img-grid" id="photo-hugo-7" src="phototest.png">
+            <img class="img-grid" id="photo-hugo-7" src="photos\photosEleveDegrade\hugo.png">
             <img class="img-grid" id="photo-ambre-8" src="photos\photosEleveDegrade\ambre.png">
             <img class="img-grid" id="photo-khouloud-9" src="photos\photosEleveDegrade\khouloud.png">
             <img class="img-grid" id="photo-anne-10" src="photos\photosEleveDegrade\anne.png">
             <img class="img-grid" id="photo-florent-11" src="photos\photosEleveDegrade\florent.png">
-            <img class="img-grid" id="photo-michael-12"src="photos\photosEleveDegrade\michael.png">
+            <img class="img-grid" id="photo-michael-12" src="photos\photosEleveDegrade\michael.png">
             <img class="img-grid" id="photo-sacha-13" src="photos\photosEleveDegrade\sacha.png">
-            <img class="img-grid" id="photo-rudy-14"src="photos\photosEleveDegrade\rudy.png">
+            <img class="img-grid" id="photo-rudy-14" src="photos\photosEleveDegrade\rudy.png">
             <img class="img-grid" id="photo-alexF-15" src="photos\photosEleveDegrade\alexF.png">
             <img class="img-grid" id="photo-anthony-16" src="photos\photosEleveDegrade\anthony.png">
-            <img class="img-grid" id="photo-marie-17" src="phototest.png">
-            <img class="img-grid" id="photo-marzouk-18" src="phototest.png">
+            <img class="img-grid" id="photo-marie-17" src="photos\photosEleveDegrade\marie.png">
+            <img class="img-grid" id="photo-marzouk-18" src="photos\photosEleveDegrade\marzouk.png">
             <img class="img-grid" id="photo-alexR-19" src="photos\photosEleveDegrade\alexR.png">
-            <img class="img-grid" id="photo-jade-20" src="phototest.png">
+            <img class="img-grid" id="photo-jade-20" src="photos\photosEleveDegrade\jade.png">
             <img class="img-grid" id="photo-imene-21" src="photos\photosEleveDegrade\imene.png">
-            <img class="img-grid" id="photo-thomas-22"src="phototest.png">
-            <img class="img-grid" id="photo-Fantine-23" src="photos\photosEleveDegrade\fantine.png">
+            <img class="img-grid" id="photo-valentin-22" src="photos\photosEleveDegrade\valentin.png">
+            <img class="img-grid" id="photo-fantine-23" src="photos\photosEleveDegrade\fantine.png">
             <img class="img-grid" id="photo-felicien-24" src="photos\photosEleveDegrade\felicien.png">
-
-            <!-- Modal content -->
-            <div class="card">
-                <h3 class="firstname-title">Anne</h3>
-                <div class="photo"></div>
-                <div class="name">Anne Marchasson</div>
-                <div class="age">32 ans</div>
-                <div class="last-job">Infographiste</div>
-                <div class="new-job">Développeur web Front-end</div>
-                <div class="description">blablabla</div>
-                <a class="card-a"> linkedin </a>
-                <div id="close-btn">x</div>
-            </div>
-        </div>
+    </div>
     </section>
 
-
-
-
-
-    <section>
+    <section id="contact">
         <h2 id="titlecontact">Contactez-nous !</h2>
-
         <div class="address">
             <div>
-                <p>Wild Code School<br>Campus Lille<br>06 61 71 44 39<br>lille@wildcodeschool.com</p>
+                <p>📧 Un contact ?<br><br>Wild Code School<br>Campus Lille<br>06 61 71 44 39<br>lille@wildcodeschool.com
+                </p>
             </div>
             <div>
-                <p>4 Avenue des Saules<br> Bâtiment le Doge<br> Lille - 59 160 </p>
+                <p>📌 Une adresse ?<br><br>4 Avenue des Saules<br> Bâtiment le Doge<br> Lille - 59 160 </p>
             </div>
         </div>
-
-
-        <div>
+        <div class="separation">
             <p> « ------ « ⋅ ☎ ⋅ » ------ »</p>
         </div>
-
         <form>
             <div class="contact">
-                <div class="personal-info">
-                    <label for="lastname">Nom _</label>
-
-                    <input type="text" id="lastname" placeholder="Ex : WILDER">
+                <div class="form-left">
+                    <div class="personal-info">
+                        <label for="lastname">Nom _</label>
+                        <input type="text" id="lastname" placeholder="Ex : WILDER">
+                    </div>
+                    <div class="personal-info">
+                        <label for="firstname">Prénom _</label>
+                        <input type="text" id="firstname" placeholder="Ex : Jean-Michel">
+                    </div>
+                    <div class="personal-info">
+                        <label for="email">E-mail _</label>
+                        <input type="email" id="email" placeholder="Ex : jmwilder@wild.win">
+                    </div>
+                    <div class="personal-info">
+                        <label for="message">Laissez-nous un message !</label>
+                        <textarea id="message" rows="7" placeholder="Notre devise ? Quand les pieds sont libres, l'esprit l'est aussi !"></textarea>
+                    </div>
                 </div>
-
-                <div class="personal-info">
-                    <label for="firstname">Prénom _</label>
-
-                    <input type="text" id="firstname" placeholder="Ex : Jean-Michel">
-                </div>
-
-                <div class="personal-info">
-                    <label for="email">E-mail _</label>
-
-                    <input type="email" id="email" placeholder="Ex : jmwilder@wild.win">
-                </div>
-
-                <div class="personal-info">
-                    <label for="message">Laissez-nous un message !</label>
-
-                    <textarea id="message" rows="7"
-                        placeholder="Notre devise ? Quand les pieds sont libres, l'esprit l'est aussi !"></textarea>
+                <div class="form-right">
+                    <p id="campus"> Des campus dans toute la France !</p>
+                    <img src="photos\Carte_France.png" alt="Les Campus de la Wild Code School." />
                 </div>
             </div>
-            <button type="submit">Envoyer ➣</button>
-
-
+            <button id="btnSubmit" type="submit">Envoyer ➣</button>
+            <div class="modalContain">
+                <div class="modalContent">
+                    <button class="close">&times;</button>
+                    <img id="studentThomas" src="photos\thomaspromo.jpg" alt="Thomas Nigon" />
+                    <p>Super !<br>Tu viens de faire ton premier pas pour rejoindre<br> Thomas et d'autres
+                        Wilders pour la prochaine session !<br><br>🎉 Félicitations 🎉
+                    </p>
+                </div>
+            </div>
         </form>
-
-
     </section>
 
     <footer>
         <div class="footer">
-            <p>Les Wilders 2023</p>
+            <p>© Les Wilders 2023</p>
         </div>
     </footer>
-    <script src="script.js"></script>
-    <script src="scriptTablet.js"></script>
-</body>
 
+    <script  src="script\script.js"></script>
+    <script src="script\scriptTablet.js"></script>
+    <script src="script\scriptNavBar.js"></script>
+    <script src="script\scriptFormModal.js"></script>
+</body>
 </html>

@@ -17,7 +17,7 @@
 
   .introduction {
     display:  inline-flex;
-    background: url(imagebackground.png);
+    background:  url("photos/imagebackgroundIntroduction.png");
     padding: 25px;
   background-repeat: no-repeat;
   background-size: auto;
